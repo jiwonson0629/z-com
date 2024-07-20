@@ -24,12 +24,12 @@ export default function Default() {
         />
         <div className={style.buttonZone}>
           <div className={style.buttonInner}>
-            <ActionButtons />
+            <ActionButtons white />
           </div>
         </div>
       </div>
       <div className={style.commentZone}>
-        <Post />
+        <Post noImage />
         <CommentForm />
         <Post />
         <Post />
